@@ -4,6 +4,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WEP Global Tech</title>
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?v=3">
+<link rel="icon" type="image/png" sizes="512x512" href="img/favicon-512x512.png?v=3">
+<link rel="shortcut icon" href="favicon.ico?v=3" type="image/x-icon">
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e1e1e">
+
+
+
+  <!-- Primary Meta Tags -->
+<meta name="title" content="WEP Global Tech – Empowering Modern Systems Through Technology">
+<meta name="description" content="WEP Global Tech delivers secure, cloud-connected, and innovative technology solutions across networking, systems administration, and digital infrastructure.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wepgt.com/">
+<meta property="og:title" content="WEP Global Tech – Empowering Modern Systems Through Technology">
+<meta property="og:description" content="Secure, scalable, and cloud-driven solutions built by WEP Global Tech.">
+<meta property="og:image" content="https://wepgt.com/img/og-preview.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://wepgt.com/">
+<meta property="twitter:title" content="WEP Global Tech – Empowering Modern Systems Through Technology">
+<meta property="twitter:description" content="Secure, scalable, and cloud-driven solutions built by WEP Global Tech.">
+<meta property="twitter:image" content="https://wepgt.com/img/og-preview.png">
+
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -36,21 +64,21 @@
 <body class="bg-white text-gray-800">
 
  <!-- Responsive Header -->
-<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
-  <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-    <!-- Left: Logo + Name -->
-    <div class="flex flex-col items-center">
-      <img src="img/logo.png" alt="WEP Global Tech Logo" class="h-20 w-auto mb-2">
-      <h1 class="text-3xl font-semibold tracking-tight text-gray-800">WEP Global Tech</h1>
-    </div>
+<header class="fixed top-0 left-0 w-full bg-black/80 text-white flex items-center justify-between px-6 py-3 z-50 shadow-lg">
+  <!-- Logo -->
+  <a href="#home" class="flex items-center space-x-2">
+    <img src="img/wepgt-logo.png" alt="WEP Global Tech Logo" class="h-10 w-auto md:h-12 hover:opacity-90 transition-opacity">
+  </a>
 
-    <!-- Desktop Nav -->
-    <nav class="hidden md:flex space-x-6 text-gray-600 font-medium">
-      <a href="#about" class="hover:text-blue-600">About</a>
-      <a href="#services" class="hover:text-blue-600">Services</a>
-      <a href="#projects" class="hover:text-blue-600">Projects</a>
-      <a href="#contact" class="hover:text-blue-600">Contact</a>
-    </nav>
+  <!-- Navigation -->
+  <nav class="space-x-6 hidden md:flex">
+    <a href="#about" class="hover:text-blue-400">About</a>
+    <a href="#services" class="hover:text-blue-400">Services</a>
+    <a href="#projects" class="hover:text-blue-400">Projects</a>
+    <a href="#contact" class="hover:text-blue-400">Contact</a>
+  </nav>
+
+  
 
      <!-- Mobile Menu Button -->
     <button id="menu-btn" class="md:hidden text-gray-600 focus:outline-none">
@@ -104,20 +132,17 @@
 
 
   <!-- About Section -->
-  <section id="about" class="pt-32 pb-16 px-6 bg-white">
-    <div class="max-w-5xl mx-auto text-center">
+  <section id="about" class="flex flex-col items-center justify-center min-h-[80vh] bg-gray-50 pt-32 pb-16 px-6"
+   class="max-w-6xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-4">About Us</h2>
       <p class="text-gray-600 text-lg">
         WEP Global Tech delivers cutting-edge IT and security solutions for modern organizations.
       </p>
-     </div>
-      </div>
     </div>
   </section>
 
-
   <!-- Services Section -->
-  <section id="services" class="pt-32 pb-16 px-6 bg-gray-50">
+  <section id="services" class="pt-32 pb-16 px-6 bg-white">
     <div class="max-w-6xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-8">Our Core Services</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -133,9 +158,7 @@
           <h3 class="text-xl font-semibold mb-2">Security Reporting</h3>
           <p class="text-gray-600">Custom-built patrol and incident management applications.</p>
         </div>
-      </div>
-    </div>
-  </section>
+         </section>
 
   <!-- Projects Section -->
   <section id="projects" class="pt-32 pb-16 px-6 bg-white">
@@ -157,12 +180,12 @@
             Built a reporting and patrol system for private security teams with real-time updates and notifications.
           </p>
         </div>
-  </section>
+            </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="pt-32 pb-40 px-6 bg-gray-50">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+  <section id="contact" class="pt-32 pb-16 px-6 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
       <p class="text-gray-600 mb-6">
         Ready to modernize your systems? Let’s talk.
       </p>

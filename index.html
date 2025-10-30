@@ -4,34 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WEP Global Tech</title>
-<!-- Favicons -->
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png?v=3">
-<link rel="icon" type="image/png" sizes="512x512" href="img/favicon-512x512.png?v=3">
-<link rel="shortcut icon" href="favicon.ico?v=3" type="image/x-icon">
-
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1e1e1e">
-
-
-
-  <!-- Primary Meta Tags -->
-<meta name="title" content="WEP Global Tech – Empowering Modern Systems Through Technology">
-<meta name="description" content="WEP Global Tech delivers secure, cloud-connected, and innovative technology solutions across networking, systems administration, and digital infrastructure.">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://wepgt.com/">
-<meta property="og:title" content="WEP Global Tech – Empowering Modern Systems Through Technology">
-<meta property="og:description" content="Secure, scalable, and cloud-driven solutions built by WEP Global Tech.">
-<meta property="og:image" content="https://wepgt.com/img/og-preview.png">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://wepgt.com/">
-<meta property="twitter:title" content="WEP Global Tech – Empowering Modern Systems Through Technology">
-<meta property="twitter:description" content="Secure, scalable, and cloud-driven solutions built by WEP Global Tech.">
-<meta property="twitter:image" content="https://wepgt.com/img/og-preview.png">
-
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -48,6 +20,21 @@
     transition: all 0.3s ease-in-out;
   }
 </style>
+<style>
+  /* Smooth scroll and header offset */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-h, 90px);
+  }
+
+  /* Optional fine-tuning if your header height changes on mobile */
+  @media (min-width: 768px) {
+    html {
+      --header-h: 100px;
+    }
+  }
+</style>
+
 
 </head>
 <style>
@@ -68,7 +55,7 @@
   <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
     <!-- Left: Logo + Name -->
     <div class="flex flex-col items-center">
-      <img src="img/logo.png" alt="WEP Global Tech Logo" class="h-20 w-auto mb-2">
+      <img src="img/wepgt-logo.png" alt="WEP Global Tech Logo" class="h-40 w-auto mb-2">
       <h1 class="text-3xl font-semibold tracking-tight text-gray-800">WEP Global Tech</h1>
     </div>
 
@@ -131,73 +118,75 @@
 </section>
 
 
-  <!-- About Section -->
-  <section id="about" class="flex flex-col items-center justify-center min-h-[80vh] bg-gray-50 pt-32 pb-16 px-6"
-   class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4">About Us</h2>
-      <p class="text-gray-600 text-lg">
-        WEP Global Tech delivers cutting-edge IT and security solutions for modern organizations.
-      </p>
-    </div>
-  </section>
+ <!-- ABOUT SECTION -->
+<section id="about" class="min-h-screen flex items-center justify-center bg-gray-50 px-6 py-20 sm:py-24 md:py-28">
+  <div class="max-w-4xl text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">About WEP Global Tech</h2>
+    <p class="text-lg text-gray-600 leading-relaxed">
+      WEP Global Tech is a systems engineering and cloud infrastructure consultancy founded by Elroy Phillip.
+      We specialize in designing, deploying, and securing broadcast and cloud-based environments. 
+      Our mission is to empower organizations by integrating modern technologies with real-world reliability.
+    </p>
+    <p class="text-lg text-gray-600 leading-relaxed mt-6">
+      From broadcast control rooms to AWS cloud ecosystems, WEP Global Tech delivers end-to-end solutions that 
+      optimize performance, reduce downtime, and ensure operational security. We believe that technology should 
+      work for you — not the other way around.
+    </p>
+  </div>
+</section>
 
-  <!-- Services Section -->
-  <section id="services" class="pt-32 pb-16 px-6 bg-white">
-    <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8">Our Core Services</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="p-6 bg-white rounded-xl shadow">
-          <h3 class="text-xl font-semibold mb-2">Cloud Consulting</h3>
-          <p class="text-gray-600">AWS, Azure, and hybrid cloud design for scalability and reliability.</p>
-        </div>
-        <div class="p-6 bg-white rounded-xl shadow">
-          <h3 class="text-xl font-semibold mb-2">Network Solutions</h3>
-          <p class="text-gray-600">Enterprise-grade Wi-Fi, fiber, and LAN implementations.</p>
-        </div>
-        <div class="p-6 bg-white rounded-xl shadow">
-          <h3 class="text-xl font-semibold mb-2">Security Reporting</h3>
-          <p class="text-gray-600">Custom-built patrol and incident management applications.</p>
-        </div>
-         </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="pt-32 pb-16 px-6 bg-white">
-    <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8">Highlighted Projects</h2>
-      <p class="text-gray-600 text-lg mb-8">
-        From cloud integrations to campus-wide Wi-Fi extensions — we deliver results that scale.
-      </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="p-6 bg-gray-50 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">Lakeside Wi-Fi Expansion</h3>
-          <p class="text-gray-600">
-            Designed and deployed a 350ft wireless bridge to provide reliable network access across a lakeside property.
-          </p>
-        </div>
-        <div class="p-6 bg-gray-50 rounded-lg shadow">
-          <h3 class="text-xl font-semibold mb-2">R.A.T. App Development</h3>
-          <p class="text-gray-600">
-            Built a reporting and patrol system for private security teams with real-time updates and notifications.
-          </p>
-        </div>
-            </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="pt-32 pb-16 px-6 bg-white">
-    <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
-      <p class="text-gray-600 mb-6">
-        Ready to modernize your systems? Let’s talk.
-      </p>
-      <a href="mailto:info@wepglobaltech.com"
-         class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
-        Get in Touch
-      </a>
-    </div>
-     </div>
+<section id="services" class="min-h-screen flex items-center justify-center bg-white px-6 py-24 md:py-28">
+  <div class="max-w-5xl text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-10">Core Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold text-xl mb-3 text-blue-700">Cloud Infrastructure</h3>
+        <p class="text-gray-600">Architecture, automation, and optimization for AWS and hybrid cloud environments.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold text-xl mb-3 text-blue-700">Broadcast Systems</h3>
+        <p class="text-gray-600">End-to-end design and support for modern control rooms and media operations.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold text-xl mb-3 text-blue-700">Security & Compliance</h3>
+        <p class="text-gray-600">Resilient IT infrastructures with proactive monitoring and compliance integration.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
+ <section id="projects" class="min-h-screen flex items-center justify-center bg-gray-50 px-6 py-24 md:py-28">
+  <div class="max-w-5xl text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-10">Projects & Case Studies</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold text-xl mb-3 text-blue-700">R.A.T. – Report & Transmit</h3>
+        <p class="text-gray-600">A web-based platform for security incident reporting with automated notifications.</p>
+      </div>
+      <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold text-xl mb-3 text-blue-700">Resident Verifier</h3>
+        <p class="text-gray-600">PDF import system for property management that verifies tenant and payment details.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="min-h-screen flex items-center justify-center bg-white px-6 py-24 md:py-28">
+  <div class="max-w-3xl text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+    <p class="text-lg text-gray-600 mb-8">
+      Interested in collaborating or learning more about WEP Global Tech’s services? Let’s connect.
+    </p>
+    <a href="mailto:contact@wepgt.com" 
+       class="inline-block bg-blue-700 text-white font-semibold py-3 px-8 rounded-full hover:bg-blue-800 transition">
+       contact@wepgt.com
+    </a>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer class="bg-gray-100 text-center py-6">
